@@ -35,4 +35,5 @@ O site é composto por:
 
 ---
 
-## 📂 Como Executar
+## 🌐 Acesse o projeto online
+[Super Tech Bros — Clique aqui](https://gustavosousa19.github.io/site-Mario/)
