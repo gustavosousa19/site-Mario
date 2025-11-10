@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+
+
+/* HEADER */
+
+header {
+    color: #0f2027;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f2027;
+    border-bottom: 2px solid #00e0ff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0, 3s;
+}
+
+nav a:hover {
+    color: #00e0ff;
+}
+
+
+
+/* SECTION HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+    background-color: #16242b;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h2 {
+
+    font-size: 40px;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.chamar {
+    display: inline-block;
+    background-color: #00e0ff;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.chamar:hover {
+    background-color: #fff;
+    color: #111;
+    transform: scale(1.05);
+}
+
+.hero img {
+    width: 300px;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+h2,
+h3 {
+    animation: brilho 2s ease-in-out infinite;
+}
+
+/* SECTION SERVICES */
+
+.services {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #0f2027;
+}
+
+.services h3 {
+    font-size: 30px;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    border: #00e0ff55 2px solid;
+    border-radius: 12px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card i {
+    font-size: 30px;
+    color: #00e0ff;
+    margin-bottom: 10px;
+}
+
+
+
+/* SECTION PLANS */
+.plans {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #203a43;
+}
+
+.plans h3 {
+    font-size: 30px;
+    color: #00e0ff;
+    text-shadow: 0 0 10px #00e0ff;
+    margin-bottom: 40px;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.plan {
+    border: 2px solid #00e0ff66;
+    border-radius: 12px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    transition: .3s;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.plan h4 {
+    color: #00e0ff;
+    margin-bottom: 15px;
+}
+
+.plan p {
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00e0ff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.plan .price:hover {
+    color: bisque;
+    text-shadow: 0 0 5px #00e0ff;
+}
+
+
+
+/* SECTION CONTACT */
+
+.contact {
+    background-color: #0a151a;
+    text-align: center;
+    padding: 20px;
+    color: dimgray;
+    font-size: 15px;
+}
