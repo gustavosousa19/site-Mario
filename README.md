@@ -5,6 +5,11 @@ O foco é apresentar serviços de forma divertida, com **design retrô**, **core
 
 ---
 
+<h2>🖼️ Preview do Projeto</h2>
+<img src="https://github.com/gustavosousa19/site-Mario/blob/main/img/img-hedme.png?raw=true" width="450">
+
+---
+
 ## 🧱 Estrutura do Projeto
 
 O site é composto por:
